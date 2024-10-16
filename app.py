@@ -194,12 +194,12 @@ if __name__ == '__main__':
         )
         moonrabbits.print_timestamp(
             f"{Fore.GREEN + Style.BRIGHT}[ Join ]{Style.RESET_ALL}"
-            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT}   {Style.RESET_ALL}"
             f"{Fore.GREEN + Style.BRIGHT}  @airdrop_unlimited  {Style.RESET_ALL}"
         )
         moonrabbits.print_timestamp(
             f"{Fore.GREEN + Style.BRIGHT}[ Join ]{Style.RESET_ALL}"
-            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT}   {Style.RESET_ALL}"
             f"{Fore.GREEN + Style.BRIGHT} @unlimited_discuasion {Style.RESET_ALL}"
         )
         moonrabbits.print_timestamp(
