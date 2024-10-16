@@ -183,14 +183,16 @@ if __name__ == '__main__':
         if sys.platform == 'win32':
             asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-        initial_choice = int(input(
-            f"{Fore.YELLOW + Style.BRIGHT}[ Enter The Number Corresponding To Your Choice ]{Style.RESET_ALL}"
-            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
-        ))
-
+        
 
         init(autoreset=True)
         moonrabbits = MoonRabbits()
+        moonrabbits.print_timestamp(
+            f"{Fore.YELLOW + Style.BRIGHT}[=====≠======≠======≠===]{Style.RESET_ALL}"
+            f"{Fore.BLUE + Style.BRIGHT}[  @airdrop_unlimited   ]{Style.RESET_ALL}"
+            f"{Fore.BLUE + Style.BRIGHT}[ @unlimited_discuaaion ]{Style.RESET_ALL}"
+            f"{Fore.YELLOW + Style.BRIGHT}[=====≠======≠======≠===]{Style.RESET_ALL}"
+        ) 
         moonrabbits.print_timestamp(
             f"{Fore.GREEN + Style.BRIGHT}[ 1 ]{Style.RESET_ALL}"
             f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
