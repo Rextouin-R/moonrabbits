@@ -188,13 +188,23 @@ if __name__ == '__main__':
         init(autoreset=True)
         moonrabbits = MoonRabbits()
         moonrabbits.print_timestamp(
-            f"{Fore.GREEN + Style.BRIGHT}[===≠{Style.RESET_ALL}"
-            f"{Fore.GREEN + Style.BRIGHT}[===≠{Style.RESET_ALL}"
+            f"{Fore.YELLOW + Style.BRIGHT}[===≠{Style.RESET_ALL}"
+            f"{Fore.YELLOW + Style.BRIGHT}===≠{Style.RESET_ALL}"
             f"{Fore.YELLOW + Style.BRIGHT}===≠==≠==≠==≠==≠==≠===]{Style.RESET_ALL}"
         )
         moonrabbits.print_timestamp(
-            f"{Fore.GREEN + Style.BRIGHT}[===≠{Style.RESET_ALL}"
-            f"{Fore.GREEN + Style.BRIGHT}===≠{Style.RESET_ALL}"
+            f"{Fore.GREEN + Style.BRIGHT}[ Join ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.BLUE + Style.BRIGHT}[  @airdrop_unlimited  ]{Style.RESET_ALL}"
+        )
+        moonrabbits.print_timestamp(
+            f"{Fore.GREEN + Style.BRIGHT}[ Join ]{Style.RESET_ALL}"
+            f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
+            f"{Fore.BLUE + Style.BRIGHT}[ @unlimited_discuasion ]{Style.RESET_ALL}"
+        )
+        moonrabbits.print_timestamp(
+            f"{Fore.YELLOW + Style.BRIGHT}[===≠{Style.RESET_ALL}"
+            f"{Fore.YELLOW + Style.BRIGHT}===≠{Style.RESET_ALL}"
             f"{Fore.YELLOW + Style.BRIGHT}===≠==≠==≠==≠==≠==≠===]{Style.RESET_ALL}"
         )
         moonrabbits.print_timestamp(
