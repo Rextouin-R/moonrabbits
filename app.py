@@ -192,16 +192,6 @@ if __name__ == '__main__':
             f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
             f"{Fore.YELLOW + Style.BRIGHT}[===≠==≠==≠==≠==≠==≠===]{Style.RESET_ALL}"
         )
-       moonrabbits.print_timestamp(
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.BLUE + Style.BRIGHT}[   @airdrop_unlimited  ]{Style.RESET_ALL}"
-        ) 
-       moonrabbits.print_timestamp(
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.BLUE + Style.BRIGHT}[ @unlimited_discuasion ]{Style.RESET_ALL}"
-        ) 
         moonrabbits.print_timestamp(
             f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
             f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
