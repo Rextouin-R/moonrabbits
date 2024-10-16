@@ -188,14 +188,14 @@ if __name__ == '__main__':
         init(autoreset=True)
         moonrabbits = MoonRabbits()
         moonrabbits.print_timestamp(
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.YELLOW + Style.BRIGHT}[===≠==≠==≠==≠==≠==≠===]{Style.RESET_ALL}"
+            f"{Fore.GREEN + Style.BRIGHT}[===≠{Style.RESET_ALL}"
+            f"{Fore.GREEN + Style.BRIGHT}[===≠{Style.RESET_ALL}"
+            f"{Fore.YELLOW + Style.BRIGHT}===≠==≠==≠==≠==≠==≠===]{Style.RESET_ALL}"
         )
         moonrabbits.print_timestamp(
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.GREEN + Style.BRIGHT}[ || ]{Style.RESET_ALL}"
-            f"{Fore.YELLOW + Style.BRIGHT}[===≠==≠==≠==≠==≠==≠===]{Style.RESET_ALL}"
+            f"{Fore.GREEN + Style.BRIGHT}[===≠{Style.RESET_ALL}"
+            f"{Fore.GREEN + Style.BRIGHT}===≠{Style.RESET_ALL}"
+            f"{Fore.YELLOW + Style.BRIGHT}===≠==≠==≠==≠==≠==≠===]{Style.RESET_ALL}"
         )
         moonrabbits.print_timestamp(
             f"{Fore.GREEN + Style.BRIGHT}[ 1 ]{Style.RESET_ALL}"
